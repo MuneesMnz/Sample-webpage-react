@@ -1,0 +1,36 @@
+
+
+nav{
+    background-color:rgb(87,168,204);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+nav .heading{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+nav .links ul {
+    display: flex;
+    margin-right:20px;
+}
+
+nav .links ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav .links ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav .links ul li a:hover, nav .heading:hover{
+    color: rgb(164, 196, 225);
+}
